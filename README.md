@@ -10,7 +10,7 @@ This algorithm will bring the Gen Z Trends on our finger-tips…
 
 Working Model of the solution proposed:
 
-![My Image](https://github.com/simrankum/Myntra-Hackerramp-We-For-She---Team-Amigos/blob/myntra/Model%20Solution.png)
+![My Image](https://github.com/simrankum/Myntra-Hackerramp-We-For-She---Team-Amigos/blob/myntra/Working%20of%20the%20proposed%20Solution.png)
 
 ## Project Demo
 
