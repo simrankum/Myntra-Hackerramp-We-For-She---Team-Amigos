@@ -1,0 +1,71 @@
+.promo-page {
+    width: 100%;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .promo-banner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #fff;
+    padding: 20px;
+  }
+  
+  .promo-banner-content {
+    flex: 1;
+    padding: 20px;
+  }
+  
+  .promo-banner-content h1 {
+    font-size: 2.5em;
+    color: #333;
+    margin-bottom: 10px;
+  }
+  
+  .promo-banner-content p {
+    font-size: 1.5em;
+    color: #666;
+    margin-bottom: 20px;
+  }
+  
+  .promo-banner-content .explore-link {
+    font-size: 1.2em;
+    color: #007bff;
+    text-decoration: none;
+    border-bottom: 1px solid #007bff;
+    padding-bottom: 2px;
+  }
+  
+  .promo-banner-image {
+    flex: 2; /* Increase flex value to make image take more space */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .promo-banner-image img {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  .promo-footer {
+    background-color: #f8f9fa;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .promo-footer p {
+    font-size: 1.2em;
+    color: #333;
+    margin-bottom: 10px;
+  }
+  
+  .promo-footer .shop-link {
+    font-size: 1.2em;
+    color: #007bff;
+    text-decoration: none;
+    border-bottom: 1px solid #007bff;
+    padding-bottom: 2px;
+  }
+  

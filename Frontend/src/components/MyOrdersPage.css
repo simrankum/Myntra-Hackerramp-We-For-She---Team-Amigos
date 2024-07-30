@@ -1,0 +1,114 @@
+.orders-container {
+    padding: 20px;
+    max-width: 1200px; /* Adjust this value as needed */
+    margin: 0 auto; /* Center the container */
+}
+
+.order-item {
+    border: 1px solid #ccc;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    max-width: 600px; /* Adjust this value as needed */
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.order-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.order-number {
+    font-weight: bold;
+}
+
+.order-details-btn {
+    background-color: transparent;
+    border: none;
+    color: #ff3f6c;
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.order-content {
+    display: flex;
+    gap: 20px;
+}
+
+.order-image {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+}
+
+.order-info {
+    flex-grow: 1;
+}
+
+.price {
+    color: #333;
+    margin: 10px 0;
+}
+
+.original-price {
+    text-decoration: line-through;
+    color: #888;
+}
+
+.saved {
+    color: green;
+    margin-left: 10px;
+}
+
+.order-actions {
+    display: flex;
+    gap: 10px;
+}
+
+.cancel-btn, .upload-zeal-btn {
+    background-color: #ff3f6c;
+    color: white;
+    padding: 5px 10px;
+    border: none;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+.cancel-btn:hover, .upload-zeal-btn:hover {
+    background-color: #ff1e46;
+}
+
+.uploaded-video {
+    margin-top: 10px;
+}
+
+.video-actions {
+    display: flex;
+    gap: 10px;
+    margin-top: 10px;
+}
+
+.order-footer {
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.order-dates, .order-rating {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.order-rating div {
+    display: flex;
+    gap: 5px;
+}
+
+.stars span {
+    font-size: 20px;
+    color: #ddd;
+}

@@ -1,0 +1,131 @@
+.body-login {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  .container {
+    width: 100%;
+    max-width: 400px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    overflow: hidden;
+  }
+  
+  .offer-banner {
+    position: relative;
+    text-align: center;
+    color: white;
+    padding: 20px;
+    border: 2px solid #e63535; /* Add a border around the offer banner */
+  }
+  
+  .offer-banner .offer-image {
+    width: 100%;
+    height: auto;
+    display: block;
+    margin-bottom: 10px; /* Add some space between the image and text */
+    border: 5px solid #e63535; /* Add a border around the image */
+    border-radius: 8px; /* Optional: Add rounded corners to the image border */
+  }
+  
+  .offer-banner .offer-text {
+    color: #000;
+  }
+  
+  .offer-text h2 {
+    margin: 0;
+    color: #e63535;
+  }
+  
+  .offer-text p {
+    margin: 5px 0;
+  }
+  
+  .offer-code span {
+    font-weight: bold;
+  }
+  
+  .offer-badge {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    background-color: #e63535;
+    color: #fff;
+    padding: 5px 10px;
+    border-radius: 5px;
+  }
+  
+  .login-container {
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .login-container h2 {
+    margin-bottom: 20px;
+  }
+  
+  .input-container {
+    display: flex;
+    align-items: center;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-bottom: 10px;
+    overflow: hidden;
+  }
+  
+  .input-container input {
+    border: none;
+    outline: none;
+    flex: 1;
+    padding: 10px;
+  }
+  
+  .login-container p {
+    font-size: 12px;
+    color: #555;
+  }
+  
+  .login-container p a {
+    color: #e63535;
+    text-decoration: none;
+  }
+  
+  .button-login {
+    background-color: #ff3f6c;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 4px;
+    cursor: pointer;
+    width: 100%;
+    margin-top: 10px;
+  }
+  
+  .button-login:hover {
+    background-color: #e63535;
+  }
+  
+  .help-link {
+    display: block;
+    margin-top: 20px;
+    color: #e63535;
+    text-decoration: none;
+  }
+  
+  .help-link span {
+    font-weight: bold;
+  }
+  
+  .genz-edition {
+    margin-top: 20px;
+    font-size: 16px;
+    font-weight: bold;
+    color: #ff3f6c;
+  }

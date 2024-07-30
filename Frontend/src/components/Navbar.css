@@ -1,0 +1,61 @@
+/* src/Navbar.css */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  background-color: #fff;
+}
+
+.navbar-logo img {
+  height: 50px;
+}
+
+.navbar-links {
+  display: flex;
+  list-style: none;
+}
+
+.navbar-links li {
+  margin: 0 10px;
+}
+
+.navbar-links a {
+  text-decoration: none;
+  color: #000;
+  font-weight: bold;
+}
+
+.navbar-links a:hover {
+  transform: scale(1.1); /* Enlarge the link */
+  color: #f0549f; /* Optional: Change color on hover */
+}
+
+
+.navbar-search input {
+  padding: 5px;
+  width: 300px;
+}
+
+.navbar-icons a {
+  margin: 0 10px;
+  text-decoration: none;
+  color: #000;
+  font-weight: bold;
+}
+
+.navbar-links a {
+  position: relative; /* Ensure the label is positioned relative to the link */
+}
+
+.new-label {
+  position: absolute;
+  top: -12px;  /* Adjust to place the label above the link */
+  right: -28px;  /* Adjust to position the label to the right of the link */
+  color: rgb(225, 38, 147);  /* Text color for the "NEW" label */
+  padding: 2px 6px;
+  border-radius: 3px;
+  font-size: 10px;
+  font-weight: bold;
+  text-transform: uppercase;  /* Optional: To make "NEW" uppercase */
+}
